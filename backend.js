@@ -18,7 +18,7 @@ app.use(express.urlencoded());
 app.use(session({secret:"abc"}));
 
    // configuraçoes
-   app.set('port', process.env.PORT || 3000)
+   app.set('port', process.env.PORT || 5500)
 
 
 
